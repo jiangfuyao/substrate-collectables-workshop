@@ -81,7 +81,7 @@ From the [Rust docs](https://doc.rust-lang.org/book/traits.html):
 
 If you are familiar with interfaces, Traits are [Rust's sole notion of an interface](https://blog.rust-lang.org/2015/05/11/traits.html).
 
-如果你熟悉 interfaces，Traits 是 [Rust 唯一的 interface 概念](https://blog.rust-lang.org/2015/05/11/traits.html)。[译者注： 我不认同把 traits 说成是 interface，不过对常用 OOP 范式的开发者来看，它在使用上的确更接近 interface 的概念，而对常用 FP 范式的开发者来说，它在使用上更接近于 Haskell 中的 typeclass 概念]
+如果你熟悉 interfaces，Traits 是 [Rust 唯一的 interface 概念](https://blog.rust-lang.org/2015/05/11/traits.html)。[**译者注**： 我不认同把 traits 说成是 interface，不过对常用 OOP 范式的开发者来看，它在使用上的确更接近 interface 的概念，而对常用 FP 范式的开发者来说，它在使用上更接近于 Haskell 中的 typeclass 概念]
 
 ### Recoverable Errors with Result
 
@@ -170,7 +170,7 @@ More simply, macros are code that write code, usually to simplify or make code m
 
 Substrate uses a lot of macros throughout the Runtime development process, and they are quite specific in the syntax they support and quite poor in the errors they return.
 
-Substrate 在整个 Runtime 开发过程中使用了很多宏，它们支持十分特有的语法，而且它们返回的错误可读性相当差。[译者注： 可以使用 [cargo-expand 工具](https://github.com/dtolnay/cargo-expand) 来展开宏，以便理解具体调用逻辑]
+Substrate 在整个 Runtime 开发过程中使用了很多宏，它们支持十分特有的语法，而且它们返回的错误可读性相当差。[**译者注**： 可以使用 [cargo-expand 工具](https://github.com/dtolnay/cargo-expand) 来展开宏，以便理解具体调用逻辑]
 
 ---
 **Learn More**
