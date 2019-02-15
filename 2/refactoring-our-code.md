@@ -3,7 +3,7 @@ Refactoring Our Code
 
 Our `create_kitty()` function is pretty bulky and has code we will probably want to use later when we introduce kitty breeding and other ways to "mint" new kitties.
 
-我们的 `create_kitty()` 函数非常庞大，而且里面有些代码可能会在稍后被引入 kitty 育种和其他方法来 “mint” 新的 kitty。
+我们的 `create_kitty()` 函数非常庞大，而且里面有些代码可能会在稍后被引入到其他方法来 “mint” 新的 kitty。
 
 We will take this opportunity to teach you about writing private internal functions which are not directly exposed through your runtime's API, but are still accessible by your module.
 
