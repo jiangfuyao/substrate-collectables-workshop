@@ -3,14 +3,14 @@ Setup
 
 The Substrate framework provides a set of simple commands to set up your local environment.
 
-Substrate 框架提供了一组简单的命令来设置本地环境。
-
 These commands will:
 
 - Install a package manager for your operating system
 - Install the Rust development environment
 - Install the core Substrate binaries
 - Install [additional helper scripts](https://github.com/paritytech/substrate-up) for quick development of new Substrate nodes
+
+Substrate 框架提供了一组简单的命令来设置本地环境。
 
 这些命令将会：
 
@@ -49,4 +49,4 @@ Whilst you're waiting for Substrate and its associated dependencies (i.e. Rust, 
 
 If you encounter any issues or discover an improvement (such as support for a different operating system to automate the installation process), then please create an [Issue](https://github.com/paritytech/scripts/issues) and/or a [PR]((https://github.com/paritytech/scripts/pulls)) if possible.
 
-如果你遇到任何问题或发现有需要改进的地方（例如支持不同的操作系统以自动化安装过程），请尽可能创建一个 [Issue](https://github.com/paritytech/scripts/issues) 或者 [PR]((https://github.com/paritytech/scripts/pulls))。
+如果你遇到任何问题或发现有需要改进的地方（例如支持不同的操作系统以自动化安装过程），请尽可能创建一个 [Issue](https://github.com/paritytech/scripts/issues) 或者 [PR](https://github.com/paritytech/scripts/pulls)。

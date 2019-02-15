@@ -10,6 +10,7 @@ We have introduced a custom structure to our chain, and while the Polkadot-JS Ap
 我们已经为我们的链引入了一个自定义结构，虽然 Polkadot-JS Apps UI 非常善于适应我们的变化，但在这种情况下，我们需要给出一个关于如何反序列化结构体数据的提示。
 
 > REMINDER: Remember to reset your chain so that you start of fresh when interacting with the UI:
+>
 > 提示：请记住重置你的链，以便在与 UI 交互时重新开始：
 >
 > ```
@@ -23,9 +24,9 @@ We have introduced a custom structure to our chain, and while the Polkadot-JS Ap
 
 Fortunately, the Polkadot-JS Apps UI provides us with a very simple way to import custom structures so that the page will be able to decode the information correctly.
 
-In the **Settings** tab, under the **developer** section, there is an input field where you can submit a JSON file. Save this JSON object into a `.json` file and submit that file into the Polkadot-JS Apps UI.
-
 幸运的是，Polkadot-JS Apps UI 为我们提供了一种非常简单的方法来导入自定义结构，以便页面能够正确解码信息。
+
+In the **Settings** tab, under the **developer** section, there is an input field where you can submit a JSON file. Save this JSON object into a `.json` file and submit that file into the Polkadot-JS Apps UI.
 
 在 **Settings** tab 页面的 **developer** 部分，有一个输入区域，你可以在其中提交 JSON 文件。将此 JSON 对象保存到一个 `.json` 文件中，并将该文件提交到 Polkadot-JS Apps UI 中。
 

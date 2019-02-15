@@ -20,9 +20,9 @@ We can securely fetch some randomness from our chain using the `system` module:
 
 Substrate uses a safe mixing algorithm that uses the entropy of previous blocks to generate new random data for each subsequent block.
 
-However, since it is dependent on previous blocks, it can take over 80 blocks to fully warm up, and you may notice the seed will not change until then.
-
 Substrate 使用一个安全混合的算法，该算法使用先前块的熵来为每个后续块生成新的随机数据。
+
+However, since it is dependent on previous blocks, it can take over 80 blocks to fully warm up, and you may notice the seed will not change until then.
 
 但是，由于它依赖于先前的块，因此可能需要超过 80 个块才能完全预热，并且你可能注意到了种子在此之前不会改变。
 

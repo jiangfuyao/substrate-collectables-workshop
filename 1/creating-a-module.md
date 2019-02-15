@@ -63,9 +63,9 @@ If you take a closer look at the `lib.rs` file, you will notice it contains deta
 
 So we will need to do the same here.
 
-To include the new module file we created, we can add the following line (indicated with the `// Add this line` comment) near the top of our file:
-
 所以我们需要在这里做同样的事情。
+
+To include the new module file we created, we can add the following line (indicated with the `// Add this line` comment) near the top of our file:
 
 要包含我们创建的新模块文件，我们可以在文件顶部附近添加以下行（注释用 `// Add this line` 表示）:
 

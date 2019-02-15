@@ -7,7 +7,7 @@ To do this, we will first need to define a storage variable for a [**Storage Ite
 
 让我们将最简单的逻辑添加到 runtime：一个存储变量的函数。
 
-为此，我们首先需要在 `decl_storage！` 宏中为 [**Storage Item**](https://substrate.readme.io/docs/glossary#section-storage-items) 定义存储变量。Substrate 存储数据库允许类型安全地使用，因此你可以在块之间保持一致。
+为此，我们首先需要在 [**`decl_storage!`**](https://wiki.parity.io/decl_storage) 宏中为 [**Storage Item**](https://substrate.readme.io/docs/glossary#section-storage-items) 定义存储变量。Substrate 存储数据库允许类型安全地使用，因此你可以在块之间保持一致。
 
 ## Declaring a Storage Value
 
@@ -30,11 +30,11 @@ decl_storage! {
 
 Here we have defined two variables: a `u32` and a `bool` with a getter function named `my_bool_getter`. The `get` parameter is optional, but if you add it to your storage item it will expose a getter function with the name specified (`fn getter_name() -> Type`).
 
-To store these basic storage values, you need to import the `support::StorageValue` module.
-
 这里我们定义了两个变量：一个 `u32` 和一个带有名为 `my_bool_getter` 的 getter 函数的 `bool`。`get` 参数是可选的，但如果将其添加到 storage item，它将公开具有指定名称的 getter 函数（`fn getter_name() -> Type`）。
 
-要存储这些基本存储值，您需要导入 `support::StorageValue` 模块。
+To store these basic storage values, you need to import the `support::StorageValue` module.
+
+要存储这些基本存储值，你需要导入 `support::StorageValue` 模块。
 
 ### Working with a Storage Value
 

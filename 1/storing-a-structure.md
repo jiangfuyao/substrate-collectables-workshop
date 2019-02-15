@@ -7,6 +7,8 @@ First we need to define what properties our kitties have in the form of a `struc
 
 如果你认为每个人都有自己的号码很酷，让我们试着给他们所有的数字 kitty！
 
+首先，我们需要以 `struct` 的形式定义我们的 kitties 具有哪些属性，然后我们需要学习如何在 runtime 存储中存储这些自定义结构。
+
 ## Defining a Custom Struct
 
 You can define a custom struct for your runtime like so:

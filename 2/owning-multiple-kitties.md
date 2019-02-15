@@ -11,11 +11,11 @@ Right now our storage can only track one kitty per user, but our total supply of
 
 ## Using Tuples to Emulate Higher Order Arrays
 
-We are going to need to introduce some more complex storage items to represent ownership of multiple items across multiple users.
-
-Fortunately, for our needs, using a [tuple](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html) of `AccountId` and `Index` can pretty much solve our problems here.
+We are going to need to introduce some more complex storage items to represent ownership of multiple items across multiple users...
 
 我们需要引入一些更复杂的存储项来表示多个用户对多个项目的所有权。
+
+Fortunately, for our needs, using a [tuple](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html) of `AccountId` and `Index` can pretty much solve our problems here
 
 幸运的是，根据我们的需求，使用 `AccountId` 和 `Index` 元组几乎就可以解决我们的问题了。
 

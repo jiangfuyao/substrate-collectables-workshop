@@ -14,6 +14,7 @@ substrate-node-new substratekitties <AUTHOR>
 ```
 
 > **NOTE**: If you want to peek behind the magic of `substrate-node-new` you can take a look [here](https://github.com/paritytech/substrate-up/blob/master/substrate-node-new).
+>
 > **注意**: 如果你想要了解 `substrate-node-new` 的具体内容，你可以看看 [这里](https://github.com/paritytech/substrate-up/blob/master/substrate-node-new)。
 
 Once your custom node is done compiling, you should be able to run the following command to start the node:

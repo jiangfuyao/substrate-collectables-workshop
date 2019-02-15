@@ -111,7 +111,7 @@ Use the template to create a `set_value()` function which will allow a user to s
 
 If you try to compile the code samples we showed above without importing the required libraries, you will get some errors:
 
-如果您尝试编译我们上面显示的代码示例而不导入所需的库，你将收到一些错误：
+如果你尝试编译我们上面显示的代码示例而不导入所需的库，你将收到一些错误：
 
 ```rust
 error[E0425]: cannot find function `ensure_signed` in this scope

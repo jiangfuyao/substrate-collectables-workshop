@@ -86,9 +86,9 @@ let new_all_people_count = match all_people_count.checked_add(1) {
 
 However, `ok_or` it is more is more clear and readable than `match`; you just need to make sure to remember the `?` at the end!
 
-If we were successfully able to increment `AllPeopleCount` without an overflow, then it will simply assign the new value to `new_all_people_count`. If not, our module will return an `Err()` which can be gracefully handled by our runtime. The error message will also appear directly in our node's console output.
-
 但是，`ok_or` 比 `match` 更清晰可读; 你只需要确保记住 `?` 在末尾！
+
+If we were successfully able to increment `AllPeopleCount` without an overflow, then it will simply assign the new value to `new_all_people_count`. If not, our module will return an `Err()` which can be gracefully handled by our runtime. The error message will also appear directly in our node's console output.
 
 如果我们成功地能够在没有上溢的情况下递增 `AllPeopleCount`，那么它就会将新值分配给 `new_all_people_count`。如果失败，我们的模块将返回一个 `Err()`，它可以由我们的 runtime 优雅地处理。错误消息也将直接显示在节点的控制台输出中。
 
@@ -96,7 +96,7 @@ If we were successfully able to increment `AllPeopleCount` without an overflow, 
 
 Now that we have checked that we can safely increment our list, we can finally push changes to our storage. Remember that when you update your list, the "last index" of your list is one less than the count. For example, in a list with 2 items, the first item is index 0, and the second item is index 1.
 
-现在我们已经检查过我们可以安全地增加列表，我们最终可以将更改推送到存储中。请记住，当您更新列表时，列表的 “最后一个索引” 比计数少一个。例如，在包含 2 个项目的列表中，第一个项目是索引 0，第二个项目是索引 1。
+现在我们已经检查过我们可以安全地增加列表，我们最终可以将更改推送到存储中。请记住，当你更新列表时，列表的 “最后一个索引” 比计数少一个。例如，在包含 2 个项目的列表中，第一个项目是索引 0，第二个项目是索引 1。
 
 A complete example of adding a new person to our list of people would look like:
 

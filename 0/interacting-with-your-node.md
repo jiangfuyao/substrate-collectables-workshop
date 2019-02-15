@@ -13,7 +13,7 @@ https://polkadot.js.org/apps/
 
 To point the UI to your local node, you need to adjust the **Settings**:
 
-要将 UI 指向本地节点，您需要调整 **设置**:
+要将 UI 指向本地节点，你需要调整 **设置**:
 
 ```
 Settings > remote node/endpoint to connect to > Local Node (127.0.0.1:9944)

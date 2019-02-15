@@ -11,4 +11,4 @@ At the end of this section, you will have started a custom Substrate node using 
 
 此过程大约需要15-30分钟，具体取决于你的计算机编译 Rust 代码的速度。
 
-在本节结束时，您将使用 baseline-node-template 启动自定义 Substrate 节点，并使用 Polkadot-JS Apps UI 与其进行交互。
+在本节结束时，你将使用 baseline-node-template 启动自定义 Substrate 节点，并使用 Polkadot-JS Apps UI 与其进行交互。
