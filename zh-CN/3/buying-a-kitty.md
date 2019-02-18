@@ -1,17 +1,10 @@
-Buying a Kitty
-===
+# 购买一个 Kitty
 
-Now that we can set the price for a kitty and transfer ownership of a kitty, we have everything we need to build a `buy_kitty` function.
+现在我们可以设置 kitty 的价格并转让 kitty 的所有权，我们拥有构建 `buy_kitty` 功能所需的一切。
 
-现在我们可以设置小猫的价格并转让小猫的所有权，我们拥有构建 `buy_kitty` 功能所需的一切。
-
-## Check a Kitty is for Sale
-
-Before we allow a user to execute the `buy_kitty()` function, we should make sure that the kitty is indeed for sale. We have simplified our example such that any Kitty with the default price of 0 is not for sale. Owners can easily call `set_price()` on their kitty with the value of 0, and take it off the market.
+## 检查用于出售的 Kitty
 
 在我们允许用户执行 `buy_kitty()` 函数之前，我们应该确保 kitty 确实可以出售。我们已经简化了我们的示例，任何默认价格为 0 的 Kitty 都不会被出售。所有者可以轻松地调用 `set_price()`， 设置他们 kitty 的价值为 0，并将其从市场上撤下。
-
-You can easily check that a `T::Balance` is zero using a function exposed by the type:
 
 你可以使用该类型公开的函数轻松检查 `T::Balance` 是否为零：
 
@@ -21,23 +14,15 @@ ensure!(my_value.is_zero(), "Value is not zero");
 // `ensure` will succeed and execution continues here
 ```
 
-If you wanted to improve this, we may have the price be an `Option<T::Balance>`, where 0 would be a valid price, and not for sale would be represented by `None`... but we will leave that as a challenge for the reader.
-
 如果你想改善这一点，我们可能会将价格定为 `Option<T::Balance>`，其中 0 将是有效价格，而由 `None` 表示不能出售... 但我们会将其当作挑战，留给读者自己实现。
 
-## Making a Payment
+## 进行付款
 
-So far our chain has been completely independent of our internal currency provided by the `Balances` module. The `Balances` module gives us access to completely manage the internal currency of every user, which means we need to be careful how we use it.
+到目前为止，我们的链完全独立于 `Balances` module 提供的内部货币。`Balances` module 使我们能够完全管理每个用户的内部货币，这意味着我们需要谨慎使用它。
 
-到目前为止，我们的链完全独立于 `Balances` 模块提供的内部货币。`Balances` 模块使我们能够完全管理每个用户的内部货币，这意味着我们需要谨慎使用它。
+幸运的是，`Balances` module 暴露出了一个名为 `make_transfer()` 的公有函数，它允许你安全地将 units 从一个帐户转移到另一个帐户，检查是否有足够的余额，上溢，下溢，甚至是因为获得 tokens 的账户创建。
 
-Fortunately, the `Balances` module exposes a public function called `make_transfer()` which allows you to safely transfer units from one account to another, checking for enough balance, overflow, underflow, and even account creation as a result of getting tokens.
-
-幸运的是，`Balances` 模块暴露出了一个名为 `make_transfer()` 的公有函数，它允许你安全地将 units 从一个帐户转移到另一个帐户，检查是否有足够的余额，上溢，下溢，甚至是因为获得 tokens 而创建的帐户。
-
-This function both "verifies" and "writes", so you will need to be careful exactly where you include it as a part of your module's logic.
-
-此函数既可以 “verifies” 又可以 “writes”，因此你需要谨慎地将其作为模块逻辑的一部分包含在内。
+此函数既可以 “verifies” 又可以 “writes”，因此你需要谨慎地将其作为 module 逻辑的一部分包含在内。
 
 ```rust
 // end of verifications
@@ -47,9 +32,7 @@ This function both "verifies" and "writes", so you will need to be careful exact
 // beginning of writing to storage
 ```
 
-## Your Turn!
-
-Follow the template provided to program in the necessary code to complete the `buy_kitty()` function. Feel free to test your new function in the Polkadot-JS Apps UI for any bugs.
+## 轮到你了！
 
 按照提供的模板编程，在必要的代码中完成 `buy_kitty()` 函数。随意在 Polkadot-JS Apps UI 中测试你的新函数是否存在任何错误。
 
