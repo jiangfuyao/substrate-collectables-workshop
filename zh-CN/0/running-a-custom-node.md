@@ -2,8 +2,6 @@
 
 现在你已经在计算机上成功安装了 Substrate 框架，我们可以使用预先配置的模板快速启动自定义 Substrate 节点。
 
-In your terminal window, navigate to your working directory and run `substrate-node-new --help` to view usage instructions. We will choose "substratekitties" as the name of our project for the purposes of this walkthrough, but you can modify this name for future projects you work on. Now run the following, where `<AUTHOR>` is your first name:
-
 在终端窗口中，切换到你的工作目录并运行 `substrate-node-new --help` 以查看使用说明。出于本项目的目的，我们将选择 “substratekitties” 作为项目的名称，但你可以随意修改此名称。现在运行以下命令，其中 `<AUTHOR>` 是你的名字：
 
 ```bash
