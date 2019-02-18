@@ -1,3 +1,8 @@
+<div align="right">
+    Language: :us:
+    <a title="Chinese" href="docs/zh-CN/README.md">:cn:</a>
+</div>
+
 # [Substrate Collectables][main link]
 
 > The interactive hands-on build-your-first-blockchain with [Substrate][] workshop
