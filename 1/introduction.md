@@ -55,7 +55,7 @@ If you are familiar with interfaces, Traits are [Rust's sole notion of an interf
 
 ### Recoverable Errors with Result
 
-You will learn later that module functions must return the `Result` type which allows us to handle errors within our functions. The returned `Result` is either `Ok()` for success or `Err()` for a failure.
+You will learn later that module functions must return the `Result` type which allows us to handle errors within our functions. The returned `Result` is either `Ok()` for success or `Err()` for a failure. 
 
 Throughout this tutorial we will use the question mark operator (`?`) at the end of functions which return a `Result`. When calling a function like this, for example `my_function()?`, Rust simply expands the code to:
 
