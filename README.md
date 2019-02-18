@@ -1,6 +1,6 @@
 <div align="right">
     Language:
-    <a title="English">:us:</a>
+    <a title="English" href="./README.md">:us:</a>
     <a title="Chinese" href="zh-CN/README.md">:cn:</a>
 </div>
 
