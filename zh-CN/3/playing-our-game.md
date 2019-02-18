@@ -61,7 +61,7 @@ Here are some ideas:
 
 以下是一些想法：
 
-- 在调用 `breed_kitty()` 期间跟踪 kitty 的父母。也许只是一个 event...？
+- 在调用 `breed_kitty()` 期间追踪 kitty 的父母。也许只是一个 event...？
 
 - 限制 `create_kitty()` 可以创建的 kitties 数量，和/或添加价格曲线以使得创建每个新的 kitty 成本更高。
 

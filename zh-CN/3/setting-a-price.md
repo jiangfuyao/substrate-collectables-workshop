@@ -3,7 +3,7 @@ Set the Price of a Kitty
 
 The core of our collectables chain is done! Users can now create and track ownership of their Substratekitties.
 
-我们链的核心已经完成！用户现在可以创建和跟踪他们的 Substratekitties 的所有权。
+我们链的核心已经完成！用户现在可以创建和追踪他们的 Substratekitties 的所有权。
 
 But if we want to make our runtime more like a game, we will need to introduce other functions like buying and selling. We will start those features by first enabling users to update the price of their kitty.
 

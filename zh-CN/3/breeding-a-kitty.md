@@ -105,7 +105,7 @@ You will find that refactoring our `_mint()` function in chapter 2 will help us 
 
 Make sure to increment the `gen` value to be one more than the max of the parent kitties. This way, we can keep track of breeded kitties versus one generated from scratch.
 
-确保增加 `gen` 值使得新 kitty 只比父母 kitties 的最大值大一。通过这种方式，我们可以跟踪那些从一开始培育的 kitties。
+确保增加 `gen` 值使得新 kitty 只比父母 kitties 的最大值大一。通过这种方式，我们可以追踪那些从一开始培育的 kitties。
 
 Then pass that kitty object to the `_mint()` function to create your new kitty!
 

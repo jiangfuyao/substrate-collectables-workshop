@@ -145,7 +145,7 @@ In the template, we currently have a `Subheader` which says:
 
 Update the `0` value to represent the current number of kitties tracked in our runtime. Then add some kitties using the Polkadot UI and confirm the value is automatically updated.
 
-更新 `0` 值以表示在我们的 runtime 中跟踪的当前 kitties 数量。然后使用 Polkadot UI 添加一些 kitties 并确认自动更新的值。
+更新 `0` 值以表示在我们的 runtime 中追踪的当前 kitties 数量。然后使用 Polkadot UI 添加一些 kitties 并确认自动更新的值。
 
 <!-- tabs:start -->
 
