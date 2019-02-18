@@ -1,5 +1,5 @@
 <div align="right">
-    语言: <a title="英语" href="../README.md">:us:</a> :cn:
+    语言: <a title="英语" href="../README.md"></a> 中文
 </div>
 
 # [Substrate Collectables][main link]
