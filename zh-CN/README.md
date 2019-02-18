@@ -42,7 +42,7 @@ Substrate 是使用 Rust 构建的，Rust 是一种现代静态类型的系统�
 
 Substratekitties workshop 是在 [Cryptokitties](https://www.cryptokitties.co/), [Cryptozombies](https://cryptozombies.io/), [Docsify](https://docsify.js.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/), [David Revoy's Cat Avatar Generator](https://framagit.org/Deevad/cat-avatar-generator) 等巨人以及众多志愿者贡献了许多报告错误和 bugs 的基础上完成的。
 
-我们希望这种教育材料教会你一些新的东西，反过来，你也教会别人一些新的东西。
+我们希望这种材料可以教会你一些新的东西，反过来，你也教会别人一些新的东西。
 
 ---
 
