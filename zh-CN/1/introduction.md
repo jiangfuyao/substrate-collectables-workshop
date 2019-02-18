@@ -50,8 +50,6 @@ From the [Rust docs](https://doc.rust-lang.org/book/traits.html):
 
 > Traits abstract over behavior that types can have in common.
 
-If you are familiar with interfaces, Traits are [Rust's sole notion of an interface](https://blog.rust-lang.org/2015/05/11/traits.html).
-
 如果你熟悉 interfaces，Traits 是 [Rust 中唯一的 interface 概念](https://blog.rust-lang.org/2015/05/11/traits.html)。[**译者注**： 我不认同把 traits 说成是 interface，不过对常用 OOP 范式的开发者来看，它在使用上的确更接近 interface 的概念，而对常用 FP 范式的开发者来说，它在使用上更接近于 Haskell 中的 typeclass 概念]
 
 ### 使用 Result 创建 Recoverable Errors

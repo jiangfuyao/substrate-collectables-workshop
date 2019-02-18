@@ -4,13 +4,6 @@
 
 所有权完全由我们的存储管理，因此 `transfer_kitty` 函数实际上只是修改现有存储以反映新状态。
 
-Let's think about the storage items we need to update:
-
-- Change the global kitty owner
-- Change the owned kitty count of each user
-- Change the owned kitty index of the kitty
-- Change the owned kitty map for each user
-
 让我们考虑一下我们需要更新的存储项目：
 
 - 更改全局 kitty 所有者

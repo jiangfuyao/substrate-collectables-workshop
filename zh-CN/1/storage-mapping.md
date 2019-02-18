@@ -37,10 +37,6 @@ decl_storage! {
 }
 ```
 
-You can see that mappings can be pretty useful when you want to represent "owned" data. Since we can create a mapping from a user (`AccountId`) to some value such as with `MyValue`, we can keep in storage information about that user. We can even build logic in our runtime which manages who is allowed to modify those values, a common pattern we will be using throughout this tutorial.
-
-To use a storage map, you will need to import the `support::StorageMap` type.
-
 你可以看到，当你想要表示 “owned” 数据时，mapping 是非常有用的。由于我们可以创建从某个用户（AccountId）到某些值（例如MyValue）的 mapping，因此我们可以保留有关该用户的存储信息。我们甚至可以在 runtime 中构建逻辑，使 runtime 可以管理具体哪些用户能被允许修改那些值，这是我们将在本教程中使用的常见模式。
 
 要使用 storage map，你需要导入 `support::StorageMap` 类型。

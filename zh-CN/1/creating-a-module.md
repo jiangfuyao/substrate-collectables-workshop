@@ -50,8 +50,6 @@ decl_module! {
 
 所以我们需要在这里做同样的事情。
 
-To include the new module file we created, we can add the following line (indicated with the `// Add this line` comment) near the top of our file:
-
 要包含我们创建的新 module 文件，我们可以在文件顶部附近添加下面这行（用注释 `// Add this line` 指出）:
 
 ```rust

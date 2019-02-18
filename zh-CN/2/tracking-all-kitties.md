@@ -1,9 +1,5 @@
 # 追踪所有 Kitties
 
-Now that we have enabled each user to create their own unique kitty, we should probably start tracking them!
-
-It makes sense for our game to track a total number of kitties created, as well as a way to track who owns each kitty.
-
 现在我们已经让每个用户都可以创建自己独一无二的 kitty，我们开始追踪它们！
 
 我们的游戏将会追踪创建的 kitty 总数，以及追踪谁拥有每只 kitty。
@@ -66,8 +62,6 @@ let new_all_people_count = match all_people_count.checked_add(1) {
 
 ## 更新存储中的 List
 
-Now that we have checked that we can safely increment our list, we can finally push changes to our storage. Remember that when you update your list, the "last index" of your list is one less than the count. For example, in a list with 2 items, the first item is index 0, and the second item is index 1.
-
 现在我们已经检查过了，我们可以安全地增加列表项，我们最终可以将更改推送到存储中。请记住，当你更新列表时，列表的 “最后一个索引” 比计数少一个。例如，在包含 2 个项目的列表中，第一个项目是索引 0，第二个项目是索引 1。
 
 将新人添加到我们的人员列表中的完整示例如下所示：
@@ -90,8 +84,6 @@ fn add_person(origin, new_person: T::AccountId) -> Result {
 我们也应该为这个函数添加碰撞检测！你还记得怎么做吗？
 
 ## 删除 List 元素
-
-One problem that this `map` and `count` pattern introduces is holes in our list when we try to remove elements from the middle. Fortunately, the order of the list we want to manage in this tutorial is not important, so we can use a "swap and pop" method to efficiently mitigate this issue.
 
 当我们尝试从列表中间删除元素时，映射和计数模式引入的一个问题就是会在列表中留下空位。幸运的是，我们想要在本教程中管理的列表顺序并不重要，因此我们可以使用 “swap and pop” 的方法来有效地缓解此问题。
 

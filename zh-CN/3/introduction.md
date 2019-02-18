@@ -8,6 +8,4 @@
 - 买一只 kitty
 - 养一只 kitty
 
-To enable these features, we will need to interact with other modules like the `Balances` module from the SRML. We will also continue to work more with Substrate specific types.
-
 要启用这些功能，我们需要与 SRML 中的其他 modules 进行交互，比如 `Balances` module。我们还将继续使用 Substrate 特定类型进行更多工作。

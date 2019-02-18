@@ -37,9 +37,7 @@ pub trait Trait: balances::Trait {
 
 ## Depositing an Event
 
-In order to use events within your runtime, you need to add a function which deposits those events. Since this is a common pattern in runtime development, the [**`decl_module!`**](https://github.com/paritytech/wiki/pull/272) macro can automatically add a default implementation of this to your module.
-
-为了在 runtime 中使用 event，你需要添加一个 deposit 这些 event 的函数。由于这是 runtime 开发中的常见模式，因此 `decl_module!` 宏可以自动添加一个默认实现到你的 module 中。
+为了在 runtime 中使用 event，你需要添加一个 deposit 这些 event 的函数。由于这是 runtime 开发中的常见模式，因此 [**`decl_module!`**](https://github.com/paritytech/wiki/pull/272) 宏可以自动添加一个默认实现到你的 module 中。
 
 只需在 module 中添加一个新函数，如下所示：
 

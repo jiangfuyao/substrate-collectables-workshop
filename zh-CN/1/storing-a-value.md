@@ -4,8 +4,6 @@
 
 ## 声明一个 Public Function
 
-We need to define runtime functions that will set and modify our storage values. This can be done within our `decl_module!` macro, which declares all the entry points that your module handles.
-
 我们需要去定义设置和修改存储值的 runtime 函数。这可以在我们的 `decl_module!` 宏中完成，该宏声明了 module 用于处理逻辑的所有入口。
 
 以下是声明公开函数的示例：
@@ -26,8 +24,6 @@ decl_module! {
 ```
 
 ## 函数结构
-
-Module functions exposed here should always take the form:
 
 此处公开的 module 函数应始终采用以下形式：
 
@@ -95,8 +91,6 @@ help: possible candidate is found in another module, you can import it into scop
 2  | use system::ensure_signed;
    |
 ```
-
-As you can see, we added some functionality in our code that we had not yet imported into our module. Rust actually can help us here by suggesting ways to solve these problems. If we listen to Rust, then we can simply add these `use` statements at the very top to get our code to compile again:
 
 如你所见，我们在代码中添加了一些尚未导入 module 的功能。实际上可以通过 Rust 编译器返回的错误消息里的建议来帮助我们解决问题。如果我们听从 Rust，那么我们可以简单地在最顶层添加这些 `use` 语句来让我们的代码再次编译通过：
 

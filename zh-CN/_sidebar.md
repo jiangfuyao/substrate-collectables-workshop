@@ -1,53 +1,54 @@
+# 目录
 
-- [Welcome](/)
+- [欢迎](./)
 
-- **#0 Getting Started**
+- **#0 开始**
 
-    - [Introduction](0/introduction.md)
-    - [Setup](0/setup.md)
-    - [Running a Custom Node](0/running-a-custom-node.md)
-    - [Interacting with Your Node](0/interacting-with-your-node.md)
-    - [Common Patterns Moving Forward](0/common-patterns-moving-forward.md)
+  - [介绍](./0/introduction.md)
+  - [安装](./0/setup.md)
+  - [运行一个自定义节点](./0/running-a-custom-node.md)
+  - [与你的节点交互](./0/interacting-with-your-node.md)
+  - [常见模式](./0/common-patterns-moving-forward.md)
 
-- **#1 Basics**
+- **#1 基础**
 
-    - [Introduction](1/introduction.md)
-    - [Creating a Module](1/creating-a-module.md)
-    - [Creating a Storage Value](1/creating-a-storage-value.md)
-    - [Storing a Value](1/storing-a-value.md)
-    - [Storage Mapping](1/storage-mapping.md)
-    - [Viewing a Storage Mapping](1/viewing-a-storage-mapping.md)
-    - [Storing a Structure](1/storing-a-structure.md)
-    - [Viewing a Structure](1/viewing-a-structure.md)
+  - [介绍](./1/introduction.md)
+  - [创建 Module](./1/creating-a-module.md)
+  - [创建 Storage Value](./1/creating-a-storage-value.md)
+  - [存储 Value](./1/storing-a-value.md)
+  - [存储 Storage Mapping](./1/storage-mapping.md)
+  - [查看 Storage Mapping](./1/viewing-a-storage-mapping.md)
+  - [存储 Structure](./1/storing-a-structure.md)
+  - [查看 Structure](./1/viewing-a-structure.md)
 
 - **#2 Kitties**
 
-    - [Introduction](2/introduction.md)
-    - [Generating Random Data](2/generating-random-data.md)
-    - [Creating an Event](2/creating-an-event.md)
-    - [Tracking All Kitties](2/tracking-all-kitties.md)
-    - [Owning Multiple Kitties](2/owning-multiple-kitties.md)
-    - [Viewing Multiple Kitties](2/viewing-multiple-kitties.md)
-    - [Refactoring Our Code](2/refactoring-our-code.md)
+  - [介绍](./2/introduction.md)
+  - [生成随机数据](./2/generating-random-data.md)
+  - [创建 Event](./2/creating-an-event.md)
+  - [追踪所有 Kitties](./2/tracking-all-kitties.md)
+  - [拥有多个 Kitties](./2/owning-multiple-kitties.md)
+  - [查看多个 Kitties](./2/viewing-multiple-kitties.md)
+  - [重构代码](./2/refactoring-our-code.md)
 
-- **#3 Interactions**
+- **#3 交互**
 
-    - [Introduction](3/introduction.md)
-    - [Setting a Price](3/setting-a-price.md)
-    - [Transferring a Kitty](3/transferring-a-kitty.md)
-    - [Buying a Kitty](3/buying-a-kitty.md)
-    - [Breeding a Kitty](3/breeding-a-kitty.md)
-    - [Playing our Game](3/playing-our-game.md)
+  - [介绍](./3/introduction.md)
+  - [设置价格](./3/setting-a-price.md)
+  - [转让 Kitty](./3/transferring-a-kitty.md)
+  - [购买 Kitty](./3/buying-a-kitty.md)
+  - [培育 Kitty](./3/breeding-a-kitty.md)
+  - [开始游戏](./3/playing-our-game.md)
 
 - **#4 Web-UI**
 
-    - [Introduction](4/introduction.md)
-    - [Set Up Substrate UI](4/set-up-substrate-ui.md)
-    - [Explore](4/explore.md)
-    - [Creating Kitties](4/creating-kitties.md)
-    - [Rendering Kitties](4/rendering-kitties.md)
+  - [介绍](./4/introduction.md)
+  - [安装 Substrate UI](./4/set-up-substrate-ui.md)
+  - [探索](./4/explore.md)
+  - [创建 Kitties](./4/creating-kitties.md)
+  - [渲染 Kitties](./4/rendering-kitties.md)
 
-- [Report an Issue](https://github.com/shawntabrizi/substrate-collectables-workshop/issues)
-- [Glossary](https://substrate.readme.io/docs/glossary)
-- [Documentation](https://substrate.readme.io/docs)
-- [r/substrate](https://www.reddit.com/r/substrate)
+- [报告 Issue](https://github.com/shawntabrizi/substrate-collectables-workshop/issues)
+- [词汇表](https://substrate.readme.io/docs/glossary)
+- [文档](https://substrate.readme.io/docs)
+- [substrate 的 reddit 频道](https://www.reddit.com/r/substrate)
