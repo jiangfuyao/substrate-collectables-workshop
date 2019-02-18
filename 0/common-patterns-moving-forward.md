@@ -13,8 +13,8 @@ Before we jump into creating a custom Substrate runtime, you should be familiar 
 
 Your Substrate runtime code is compiled into two versions:
 
-- A [WebAssembly](https://webassembly.org/) (Wasm) image
-- A standard binary executable
+ - A [WebAssembly](https://webassembly.org/) (Wasm) image
+ - A standard binary executable
 
 The Wasm file is used as a part of the compilation of the standard binary, so it is important that you always compile your Wasm image first before you build the executable.
 

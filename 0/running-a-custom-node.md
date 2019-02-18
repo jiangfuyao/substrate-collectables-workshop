@@ -25,6 +25,6 @@ If you are successful, you should see blocks being produced.
 ---
 **Learn More**
 
-Using the `--dev` flag tells your node binaries to run a specific chain
+Using the `--dev` flag tells your node binaries to run a specific chain 
 
 ---

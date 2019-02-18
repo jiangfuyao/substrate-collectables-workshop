@@ -4,7 +4,6 @@ Setup
 The Substrate framework provides a set of simple commands to set up your local environment.
 
 These commands will:
-
 - Install a package manager for your operating system
 - Install the Rust development environment
 - Install the core Substrate binaries
@@ -22,8 +21,8 @@ Unfortunately, since the installation process can be unique per operating system
 
 Whilst you're waiting for Substrate and its associated dependencies (i.e. Rust, etc) to download and install, there are other programs that may not be included in the bundle and should be installed in your development environment:
 
-- [Node + NPM](https://nodejs.org/en/download/)
-- [Visual Studio Code](https://code.visualstudio.com/) (or an IDE of your choice)
-- [Chrome](https://www.google.com/chrome/) or a Chromium based browser (sorry Firefox users :[ )
+ - [Node + NPM](https://nodejs.org/en/download/)
+ - [Visual Studio Code](https://code.visualstudio.com/) (or an IDE of your choice)
+ - [Chrome](https://www.google.com/chrome/) or a Chromium based browser (sorry Firefox users :[ )
 
 If you encounter any issues or discover an improvement (such as support for a different operating system to automate the installation process), then please create an [Issue](https://github.com/paritytech/scripts/issues) and/or a [PR]((https://github.com/paritytech/scripts/pulls)) if possible.
