@@ -1,5 +1,7 @@
 <div align="right">
-    language: en <a title="Chinese" href="zh-CN/README.md">cn</a>
+    Language:
+    <a title="English">:us:</a>
+    <a title="Chinese" href="zh-CN/README.md">:cn:</a>
 </div>
 
 # [Substrate Collectables][main link]
