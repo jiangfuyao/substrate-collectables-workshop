@@ -1,5 +1,5 @@
 <div align="right">
-    语言: <a title="英语" href="../../README.md">:us:</a> :cn:
+    语言: <a title="英语" href="../README.md">:us:</a> :cn:
 </div>
 
 # [Substrate Collectables][main link]
@@ -40,7 +40,7 @@ Substrate 是使用 Rust 构建的，Rust 是一种现代静态类型的系统�
 
 如果没有开发社区的协作努力，像 Substrate 这样的开源项目和这个 workshop 就无法成功。
 
-Substratekitties workshop 是在 [Cryptokitties](https://www.cryptokitties.co/), [Cryptozombies](https://cryptozombies.io/), [Docsify](https://docsify.js.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/), [David Revoy's Cat Avatar Generator](https://framagit.org/Deevad/cat-avatar-generator) 等巨头以及众多志愿者贡献了许多报告错误和 bugs 的基础上完成的。
+Substratekitties workshop 是在 [Cryptokitties](https://www.cryptokitties.co/), [Cryptozombies](https://cryptozombies.io/), [Docsify](https://docsify.js.org/), [Monaco Editor](https://microsoft.github.io/monaco-editor/), [David Revoy's Cat Avatar Generator](https://framagit.org/Deevad/cat-avatar-generator) 等巨人以及众多志愿者贡献了许多报告错误和 bugs 的基础上完成的。
 
 我们希望这种教育材料教会你一些新的东西，反过来，你也教会别人一些新的东西。
 
